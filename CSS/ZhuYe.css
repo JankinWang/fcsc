@@ -1,0 +1,91 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+.daoHang_css
+{
+	background-color:RGB(230,230,230);
+	position: relative;
+	z-index: 1;
+}
+.chanpinmulu_css
+{
+	width: 65%;
+	margin: 0px auto;
+    position: relative;
+    height: 40px;
+}
+.ul_daohang1
+{   
+	position: relative;
+    width: 30%;
+    height:40px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    
+    background-color: RGB(230,230,230) ;
+    
+    
+}
+
+.ul_daohang1 a
+{
+	float: left;
+	
+}
+.daoHang_css div ul  a
+{   
+	line-height: 40px;
+	font-size: 15px;
+	color: rgb(100,100,100);
+	text-decoration: none;
+	padding:0px 10px;
+}
+.gengduo_css
+{
+	background-image: url("../images/gengduo.svg");
+	width: 30px;
+	height: 30px;
+	
+	background-size: 30px 30px;
+	display: inline-block;
+	position: absolute;
+	 top: 50%;
+	 margin-top: -15px;
+	 float: left;
+}
+
+.daoHang_css div ul  a:hover
+{
+	background-color: rgba(40,40,40,0.2);
+	color: rgb(200,50,50);
+}
+.ul_daohang2
+{
+	float: right;
+	display: inline-block;
+}
+.ul_daohang2 div
+{
+	width: 1px;
+	height: 16px;
+	background-color: rgb(100,100,100);
+	display: inline-block;
+	vertical-align: middle;
+}
+/* 导航部分*/
+
+
+#mainContent
+{
+	
+	width: 1600px;
+	position: relative;
+	margin: 0px auto;
+	height: 50px;
+	clear: left;
+}
